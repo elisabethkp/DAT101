@@ -97,8 +97,23 @@
   </div>
 </fieldset>
 <ol>
-  <li>[Write the question here, and copy this for more questions]</li>
-  <p>[Write your answer here, and copy this for more answers]</p>
+  <li>In this assignment, we use the DOM. Explain how this library can help us develop interactive web
+    pages.</li>
+  <p>DOM (Document Object Model) er et grensesnitt som representerer strukturen på en nettside som et tre av objekter. Ved hjelp av JavaScript kan vi bruke DOM til å gjøre nettsider interaktive og dynamiske. Man kan endre innholod, håndtere hendelser, endre utseende på elementer i sanntid, legge til eller fjerne elementer, kontrollere brukerinndata før de sendes inn og ha sanntidsoppdateringer. </p>
+    <li>What is an event? Simply explain what happens when we add an event listener to an object.</li>
+    <p> En event (hendelse) er noe som skjer på en nettside, som et klikk, tastetrykk eller musbevegelse. Når vi legger til en event listener på et objekt, lytter den etter en spesifikk hendelse (f.eks. klikk). Når hendelsen skjer, utfører den en tilknyttet funksjon.</p>
+    <li>Sometimes we need to use an event object to get data from the event. Explain how this event object is structured, don't explain all functions or attributes. Try to explain, for example, how to
+      retrieve data from a keyboard or mouse.</li>
+  <p>Et event-objekt inneholder informasjon om hendelsen som oppstod, som hvilken tast som ble trykket eller hvor musen var. Når en hendelse skjer, sendes dette objektet automatisk til funksjonen. For tastaturhendelser kan vi bruke event.key for å hente hvilken tast som ble trykket. For musehendelser kan vi bruke event.clientX og event.clientY for å finne musepekeren sin posisjon. </p>
+  <li>Explain the main difference between DOM id and DOM name. Can we have identical IDs?</li>
+  <p>Hovedforskjellen mellom DOM id og DOM name er at id skal være unik på en nettside, mens name kan brukes på flere elementer.
+    id brukes for å identifisere ett unikt element på siden (f.eks. id="header").
+    name kan brukes på flere elementer, spesielt i formene, for å gruppere dem sammen (f.eks. name="user" på flere input-felt).
+    Så nei, id kan ikke være identisk for flere elementer, da den skal være unik på hele siden.</p>
+
+
+
+ 
 </ol>
 <script type="module" src="./task_4-3.mjs" defer></script>
 </body>
